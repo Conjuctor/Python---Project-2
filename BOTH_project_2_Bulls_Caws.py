@@ -136,7 +136,7 @@ caw = 0
 repete = ("y")
 while repete != "n":
     secret_number = secret_numbers()
-    print(secret_number) # only for check of the secret number and for testing
+    #print(secret_number) # only for check of the secret number and for testing
     inserted_number = str("0")
     attemps = 0
     while inserted_number != secret_number:
